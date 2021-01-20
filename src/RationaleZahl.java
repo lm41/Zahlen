@@ -125,6 +125,8 @@ public class RationaleZahl implements ZahlMitVorzeichen, AdditivInvertierbar,
         System.out.println(n);
         n = n.multipliziere(new RationaleZahl(10, 50));
         System.out.println(n);
+        System.out.println("Hello World");
     }
+
 
 }
